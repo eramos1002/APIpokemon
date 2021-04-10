@@ -315,7 +315,7 @@ api.get(
     }
 );
 
-const PORT = proccess.env.PORT || 1010; // esto es para q cuando la aplicación este en la nube crea diferentes variables de entorno
+const PORT = process.env.PORT || 1010; // esto es para q cuando la aplicación este en la nube crea diferentes variables de entorno
 
 api.listen(PORT, () => {
     console.log(`POKEAPI corriendo en puerto ${PORT}`);
